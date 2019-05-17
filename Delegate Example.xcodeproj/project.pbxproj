@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		13F2FA4B228F30A1009E44F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2FA4A228F30A1009E44F0 /* AppDelegate.swift */; };
-		13F2FA4D228F30A1009E44F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2FA4C228F30A1009E44F0 /* ViewController.swift */; };
+		13F2FA4D228F30A1009E44F0 /* ReciverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2FA4C228F30A1009E44F0 /* ReciverViewController.swift */; };
 		13F2FA50228F30A1009E44F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F2FA4E228F30A1009E44F0 /* Main.storyboard */; };
 		13F2FA52228F30A2009E44F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F2FA51228F30A2009E44F0 /* Assets.xcassets */; };
 		13F2FA55228F30A2009E44F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F2FA53228F30A2009E44F0 /* LaunchScreen.storyboard */; };
+		13F2FA5D228F31AA009E44F0 /* SenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2FA5C228F31AA009E44F0 /* SenderViewController.swift */; };
+		13F2FA5F228F32A7009E44F0 /* DataTransferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2FA5E228F32A7009E44F0 /* DataTransferable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13F2FA47228F30A1009E44F0 /* Delegate Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delegate Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F2FA4A228F30A1009E44F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13F2FA4C228F30A1009E44F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13F2FA4C228F30A1009E44F0 /* ReciverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciverViewController.swift; sourceTree = "<group>"; };
 		13F2FA4F228F30A1009E44F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13F2FA51228F30A2009E44F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13F2FA54228F30A2009E44F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13F2FA56228F30A2009E44F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F2FA5C228F31AA009E44F0 /* SenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderViewController.swift; sourceTree = "<group>"; };
+		13F2FA5E228F32A7009E44F0 /* DataTransferable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				13F2FA4A228F30A1009E44F0 /* AppDelegate.swift */,
-				13F2FA4C228F30A1009E44F0 /* ViewController.swift */,
+				13F2FA5E228F32A7009E44F0 /* DataTransferable.swift */,
+				13F2FA4C228F30A1009E44F0 /* ReciverViewController.swift */,
+				13F2FA5C228F31AA009E44F0 /* SenderViewController.swift */,
 				13F2FA4E228F30A1009E44F0 /* Main.storyboard */,
 				13F2FA51228F30A2009E44F0 /* Assets.xcassets */,
 				13F2FA53228F30A2009E44F0 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F2FA4D228F30A1009E44F0 /* ViewController.swift in Sources */,
+				13F2FA5F228F32A7009E44F0 /* DataTransferable.swift in Sources */,
+				13F2FA4D228F30A1009E44F0 /* ReciverViewController.swift in Sources */,
+				13F2FA5D228F31AA009E44F0 /* SenderViewController.swift in Sources */,
 				13F2FA4B228F30A1009E44F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
